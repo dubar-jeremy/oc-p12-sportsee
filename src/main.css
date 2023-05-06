@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* aside  */
+
+.aside-navigation-bar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100px;
+    background-color: black;
+    overflow-y: auto;
+}
+
+.aside-icons-list {
+    align-self: center;
+}
+
+.aside-icons-list:hover {
+    cursor: pointer;
+}
+
+.aside-text {
+    color: white;
+    align-self: flex-end;
+    position: fixed;
+    rotate: 90deg;
+    bottom: 100px;
+    width: max-content;
+}
+
+/* navBar */
+
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    height: 4em;
+    background: black;
+    z-index: 2;
+    width: 100%;
+    padding-left: 2em;
+}
+
+.main-navigation-bar {
+    display: flex;
+    width: 100%;
+}
+
+.main-navigation-bar {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.logo-container {
+    display: flex;
+    width: 10%;
+    gap: 0.5em;
+}
+
+.logo {
+  width: 30px;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-list > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.title {
+    color: red;
+}
+
+/* hero */
+
+.hero {
+    padding-top: 75px;
+    padding-left: 150px;
+    padding-right: 75px;
+}
+
+.firstname {
+    color: red;
+}
+
+/* icon */ 
+
+.icon-container {
+    display: flex;
+     align-items: center;
+     width: min-content;
+     padding: 1em;
+     margin: 1em;
+     border-radius: 10px;
+     flex-direction: column;
+     gap: 2em;
+ }
+
+ .aside-icon {
+   max-width: 50px;
+   height: auto;
+ }
+ 
+ 
+ .background-grey {
+     background-color: #f5f5f5;
+ }
+ 
+ .icon-color-red {
+     color: #ff0000;
+ }
+ 
+ .icon-color-black {
+     color: #000000;
+ }
+ 
+ .icon-color-blue {
+     color: #49b9ffd6;
+ }
+ 
+ .icon-color-yellow {
+     color: #FCCC08
+ }
+ 
+ .background-light-red {
+     background-color: #FBECEB;
+ }
+ 
+ .background-light-blue {
+     background-color: #EAF4FB;
+ }
+ 
+ .background-light-yellow {
+     background-color: #c7bea4;
+ }
+
+ /* rechart  */
+
+ .rechart-container {
+  display: flex;
+  gap: 2em;
+  margin-left: 150px;
+  margin-right: 75px;
+  }
+  
+  /* components on left side */
+  
+  .left-side {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    width: 70%;
+  }
+  
+  .parent-test {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    gap: 2em;
+  }
+  
+  .test {
+    background-color: red;
+    width: 33%;
+    height: auto;
+  }
+  
+  .barChartContainer {
+    background: #FBFBFB;
+    width: 100%;
+    height: 300px;
+  }
+  
+  /* Average sessions */
+  
+  .label {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .label + .label {
+    transform: translateY(15px);
+  }
+  .tooltip {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  .tooltipDay {
+    text-align: center;
+    color: var(--gray);
+    padding-bottom: 5px;
+    text-transform: capitalize;
+  }
+  
+  /* components on right side */
+  
+  .cardsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .card {
+    display: flex;
+    background-color: #FBFBFB;
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    gap: 1em;
+  }
+  
+  .card-content {
+    align-self: center;
+  }
+  
+  .card-value {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-title, .card-value {
+    width: 100%;
+  }
+  
+  /* // score  */
+  
+  .label2 {
+    fill: #20253a;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .value2 {
+    fill: #282d30;
+    font-weight: bold;
+    font-size: 20px;
+    transform: translateY(-12px);
+  }
+  .helpText2 {
+    font-size: 10px;
+    transform: translateY(12px);
+    fill: var(--gray);
+  }
+  .helpText + .helpText {
+    transform: translateY(26px);
+  }
