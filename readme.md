@@ -21,7 +21,7 @@ Change ```VITE_NODE_ENV``` in the .env
 VITE_NODE_ENV=development
 ```
 
-## Use en api
+## Use an api
 You will need to run the api provided by openclassroom
 
 Change ```VITE_NODE_ENV``` in the .env
